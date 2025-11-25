@@ -28,7 +28,7 @@ parappend(
 
 \item{col.names}{Whether to write column names (default: FALSE), defaults to TRUE if file does not exist.}
 
-\item{sep}{The separator to use (default: "\t")}
+\item{sep}{The separator to use (default: "\\t")}
 
 \item{quote}{Whether to quote character/factor columns (default: FALSE)}
 

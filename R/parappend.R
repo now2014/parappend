@@ -4,7 +4,7 @@
 #' @param data The data to append (eg. a data.frame or data.table)
 #' @param append Whether to append to the file (default: TRUE) or overwrite (FALSE)
 #' @param col.names Whether to write column names (default: FALSE), defaults to TRUE if file does not exist.
-#' @param sep The separator to use (default: "\t")
+#' @param sep The separator to use (default: "\\t")
 #' @param quote Whether to quote character/factor columns (default: FALSE)
 #' @param row.names Whether to write row names (default: FALSE)
 #' @param na The string to use for missing values (default: "NA")
