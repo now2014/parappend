@@ -1,0 +1,16 @@
+Package: parappend
+Type: Package
+Title: Parallel-Safe File Appending with File Locks
+Version: 0.1.0
+Authors@R: c(person("Ao","Lan",role=c("aut", "cre"),email="lanao15@126.com"))
+Description: Provides parallel-safe functions to append data to files 
+    using OS-level file locks. Supports parallel::mclapply, parLapply,
+    and other multi-process workflows. Ensures data integrity during concurrent writing.
+URL: https://github.com/now2014/parappend
+License: MIT + file LICENSE
+Imports: data.table, filelock
+Depends: R (>= 3.1.1)
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+Packaged: 2024-04-03 13:16:16 UTC; lanao
